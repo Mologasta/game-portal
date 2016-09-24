@@ -42,17 +42,9 @@
     height: 50px;
     background-color: #800000;
   }
-  .btn-user:hover {
+  .btn-user:hover, .btn-user:active, .btn-user:focus {
     background-color: #800000;
     color: #9d9d9d;
-  }
-  .btn-user:focus {
-    color: #9d9d9d;
-    border: none;
-  }
-  .btn-user:active {
-    color: #9d9d9d;
-    border: none;
   }
   .dropdown-menu {
     color: white;
@@ -69,6 +61,9 @@
   .footer ul li{
     background-color: grey;
     border: none;
+  }
+  .btn:active:focus, .btn:focus {
+    outline: none;
   }
 
 
