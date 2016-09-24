@@ -1,4 +1,5 @@
-  .container-fluid {
+
+  .nav {
     background-color: #800000;
   }
 
@@ -34,3 +35,41 @@
     display: none;
   }
 
+  .btn-user {
+    color: #9d9d9d;
+    border-radius: 0px;
+    border: none;
+    height: 50px;
+    background-color: #800000;
+  }
+  .btn-user:hover {
+    background-color: #800000;
+    color: #9d9d9d;
+  }
+  .btn-user:focus {
+    color: #9d9d9d;
+    border: none;
+  }
+  .btn-user:active {
+    color: #9d9d9d;
+    border: none;
+  }
+  .dropdown-menu {
+    color: white;
+    border-radius: 0px;
+    background-color: rgb(102, 0, 0);
+  }
+  .dropdown-menu li a{
+    color: #ccc;
+  }
+  .footer {
+    background-color: grey;
+    margin: 0px;
+  }
+  .footer ul li{
+    background-color: grey;
+    border: none;
+  }
+
+
+  
