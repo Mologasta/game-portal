@@ -11,4 +11,8 @@ $(document).ready(function(){
 	        scrollTop : 0             
 	    }, 500);
 	});
+	$('.log-reg').click(function(){
+		$(this).addClass('hidden');
+		$('.user').removeClass('hidden');
+		});
 });
