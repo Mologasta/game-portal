@@ -1,4 +1,8 @@
 
+  
+  body {
+    background-image: url(../img/mainBackground.png);
+  }
   .nav {
     background-color: #800000;
   }
@@ -55,11 +59,13 @@
     color: #ccc;
   }
   .footer {
-    background-color: grey;
+    background-color: #800000;
+    color: #9d9d9d;
     margin: 0px;
   }
   .footer ul li{
-    background-color: grey;
+    background-color: #800000;
+    color: #9d9d9d;
     border: none;
   }
   .btn:active:focus, .btn:focus {
