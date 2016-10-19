@@ -3,15 +3,18 @@
 <head>
   <title>Game portal</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
+  
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
   <script src="js/controls.js"></script>
+  <script src="js/routing.js"></script>
 </head>
-<body>
-  <div id ="header"></div>
+<body ng-app="myApp">
   <div class="container frame">
   <nav class="navbar navbar-inverse">
     <div class="raw nav">
@@ -21,12 +24,12 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">awesome logo</a>
+      <a class="navbar-brand" href="#/">awesome logo</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li><a href="#">News</a></li>
-        <li><a href="#">Shop</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#shop">Shop</a></li>
       </ul>
        <ul class="nav navbar-nav navbar-right user hidden">
         <li>
@@ -34,30 +37,25 @@
             <span class="glyphicon glyphicon-log-out"></span>Logout</button> 
         </li>
         <li>
-          <button class="btn dropdown-toggle btn-user" type="button"data-toggle="dropdown">
+          <button class="btn dropdown-toggle btn-user" type="button" data-toggle="dropdown">
           <span class="glyphicon glyphicon-user"></span>User</button>
             <ul class="dropdown-menu">
-              <li><a href="#">Profile</a></li>
-              <li><a href="#">Library</a></li>
-              <li><a href="#">Wish list</a></li>
-              <li><a href="#">Friend list</a></li>
+              <li><a href="#profile">Profile</a></li>
+              <li><a href="#game-librarry">Library</a></li>
+              <li><a href="#wishlist">Wish list</a></li>
+              <li><a href="#friend-list">Friend list</a></li>
             </ul>
           </li>
       </ul>
       <ul class="nav navbar-nav navbar-right log-reg">
-        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        <li><a href="#sign-up"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="#log-in"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
       </ul>
     </div>
   </div>
 </nav>
 <div class="container content">
-  <div class="row">
-    <div class="col-sm-3">
-    </div>
-  </div>
-  <div class="col-sm-10">
-    <div class="con"><h3> This site is awesome, this is the place where u can play all your favorite games with friends, or by yourself.</h3></div>
+  <div ng-view>
   </div>
   <div class="to-the-top">
     <input class="btn" type="image" name="image" src="assets/img/upArrow.png">
@@ -66,7 +64,7 @@
 <div class="row footer">
   <div class="container"> 
     <div class="col-sm-6">
-      <h4>Authors: Lalayan Sergey Koval Andriy Shaligin Oleg</h4> 
+      <h4>Authors: Lalayan Sergey, Koval Andriy, Shaligin Oleg</h4> 
     </div>
     <div class="col-sm-6">
       <h4>Draniki solutions &copy; 2016</h4>

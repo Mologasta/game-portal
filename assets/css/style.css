@@ -3,46 +3,51 @@
   body {
     background-image: url(../img/mainBackground.png);
   }
+
   button:focus {
     outline:none;
   }
+
+  #myCanvas{
+    border: #800000 1px solid;
+    margin: 2%;
+  }
+
   .nav {
     background-color: #800000;
   }
 
   .content {
-    margin-top: 30px;
+    margin-top: 6%;
   }
   .con {
-    height: 2000px;
+    height: 1000px;
 
   }
   .list-group {
-    padding: 15px;
+    padding: 3%;
   }
   .list-group-item {
     background-color: #800000;
     border: #680000;
+
   }
-  .list-group a {
+  .list-group {
     color: #9d9d9d;
   }
-  #header {
-    height:100px;
-    width: 80%;
-  }
   .frame {
+    margin-top: 8%;
     background-color: rgba(0, 0, 0, 0.6);
 
   }
   .container {
-    padding: 10px;
+    padding: 2%;
     border-radius: 7px;
   }
   .to-the-top {
     position: fixed;
-    bottom: 30px;
-    right: 30px;
+    bottom: 6%;
+    right: 6%;
     display: none;
   }
 
@@ -50,15 +55,18 @@
     color: #9d9d9d;
     border-radius: 0px;
     border: none;
-    height: 50px;
+    height:auto;
     background-color: #800000;
+  }
+  nav .btn-user {
+    height: 50px;
   }
   .btn-user:hover, .btn-user:active, .btn-user:focus {
     background-color: #800000;
     color: #ccc;
   }
   .filt {
-    height: 30px;
+    height: 6%;
   }
   .dropdown-menu {
     color: white;
@@ -71,7 +79,7 @@
   .footer {
     background-color: #800000;
     color: #9d9d9d;
-    margin: 20px 0 0 0;
+    margin: 4% 0 0 0;
   }
   .footer ul li{
     background-color: #800000;
@@ -83,14 +91,16 @@
   }
 
   .items {
+    vertical-align: center;
     border-radius: 10px;
     height: 200px;
     width: 150px;
-    padding : 5px;
+    padding : 2%;
   }
   .filters {
-    margin-bottom: 20px;
-    padding-right: 15px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-right: 3%;
   }
   .form-control {
     color: white;
@@ -108,8 +118,25 @@
     background-color: rgb(102, 0, 0);
   }
   .text-content{
-    display:hidden;
+    display: hidden;
     text-decoration: none;
   }
+
+  .descr{
+    padding: 2%;
+    color: #9d9d9d;
+  }
+  .text{
+    font-size: 20px;
+    color: #9d9d9d;
+  }
+  .small-text{
+    font-size: 14px;
+    color: #9d9d9d;
+  }
+  .avatar {
+    margin: 5%;
+  }
+
 
   
