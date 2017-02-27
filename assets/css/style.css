@@ -9,41 +9,43 @@
   }
 
   #myCanvas{
-    border: #800000 1px solid;
+    border: #b00000 1px solid;
     margin: 2%;
   }
 
   .nav {
-    background-color: #800000;
+    background-color: #b00000;
   }
 
   .content {
     margin-top: 6%;
   }
+
   .con {
     height: 1000px;
 
   }
+  
   .list-group {
     padding: 3%;
+    color: #EBECED;
   }
-  .list-group-item {
-    background-color: #800000;
-    border: #680000;
 
+  .list-group-item {
+    background-color: #b00000;
+    border: #680000;
   }
-  .list-group {
-    color: #9d9d9d;
-  }
+
   .frame {
     margin-top: 8%;
     background-color: rgba(0, 0, 0, 0.6);
-
   }
+
   .container {
     padding: 2%;
     border-radius: 7px;
   }
+
   .to-the-top {
     position: fixed;
     bottom: 6%;
@@ -52,40 +54,48 @@
   }
 
   .btn-user {
-    color: #9d9d9d;
+    color: #EBECED;
     border-radius: 0px;
     border: none;
     height:auto;
-    background-color: #800000;
+    background-color: #b00000;
   }
+
   nav .btn-user {
     height: 50px;
   }
+
   .btn-user:hover, .btn-user:active, .btn-user:focus {
-    background-color: #800000;
-    color: #ccc;
+    background-color: #b00000;
+    color: #EBECED;
   }
+
   .filt {
     height: 6%;
   }
+
   .dropdown-menu {
     color: white;
     border-radius: 0px;
     background-color: rgb(102, 0, 0);
   }
+
   .dropdown-menu li a{
-    color: #ccc;
+    color: #EBECED;
   }
+
   .footer {
-    background-color: #800000;
-    color: #9d9d9d;
+    background-color: #b00000;
+    color: #EBECED;
     margin: 4% 0 0 0;
   }
+
   .footer ul li{
-    background-color: #800000;
-    color: #9d9d9d;
+    background-color: #b00000;
+    color: #EBECED;
     border: none;
   }
+
   .btn:active:focus, .btn:focus {
     outline: none;
   }
@@ -97,26 +107,31 @@
     width: 150px;
     padding : 2%;
   }
+
   .filters {
     margin-top: 2%;
     margin-bottom: 2%;
     padding-right: 3%;
   }
+
   .form-control {
     color: white;
     border-radius: 0px;
     background-color: rgb(102, 0, 0);
     border: none;
   }
+
   .form-control:focus {
     box-shadow:none;
     border:none;
   }
+
   .form-control:hover {
     box-shadow:inset 0 1px 1px rgba(0,0,0,.075),
     0 0 8px rgba(255,255,255,0.6);
     background-color: rgb(102, 0, 0);
   }
+
   .text-content{
     display: hidden;
     text-decoration: none;
@@ -124,16 +139,20 @@
 
   .descr{
     padding: 2%;
-    color: #9d9d9d;
+    color: #EBECED;
   }
-  .text{
+
+  .text{ 
+    padding: 2%;
     font-size: 20px;
-    color: #9d9d9d;
+    color: #EBECED;
   }
+
   .small-text{
     font-size: 14px;
-    color: #9d9d9d;
+    color: #EBECED;
   }
+  
   .avatar {
     margin: 5%;
   }
