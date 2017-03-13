@@ -7,8 +7,8 @@ app.config(function($routeProvider) {
   .when("/game-page", {
     templateUrl : "pages/game-page.html"
   })
-  .when("/game-librarry", {
-    templateUrl : "pages/game-librarry.html"
+  .when("/game-library", {
+    templateUrl : "pages/game-library.html"
   })
   .when("/wishlist", {
     templateUrl : "pages/wishlist.html"
